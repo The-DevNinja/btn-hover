@@ -1,0 +1,20 @@
+body {
+    background-color: #252525;
+    font-family: poppins;
+}
+
+.container {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.btn {
+    padding: 1rem 1.5rem;
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: radial-gradient(circle at var(--xPos) var(--yPos), rgba(255, 255, 255, 0.205), transparent);
+}
