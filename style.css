@@ -1,0 +1,22 @@
+body {
+    background-color: #252525;
+    font-family: poppins, monospace;
+}
+
+.container {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.btn {
+    padding: 1rem 1.5rem;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    color: white;
+}
+
+.btn:hover {
+    /* just to make sure thats is working */
+    /* we will use JavaScript then */
+    background: radial-gradient(circle at var(--xPos) var(--yPos), rgba(255, 255, 255, 0.3), transparent);
+}
